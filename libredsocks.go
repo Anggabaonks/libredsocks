@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"fmt"
 
-	"github.com/aztecrabbit/libutils"
+	"github.com/Anggabaonks/libutils"
 )
 
 var (
@@ -59,7 +59,7 @@ func (r *Redsocks) CheckIsEnabled() bool {
 
 func (r *Redsocks) GenerateConfig() error {
 	data := fmt.Sprintf(`// Generated from Brainfuck Tunnel Libraries
-// (c) 2020 Aztec Rabbit.
+// (c) 2020 Anggabaonks.
 
 base {
 	log_info = %s;
